@@ -1,0 +1,38 @@
+/* Style for the TodoApp container */
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the heading */
+.todo-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the form */
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.todo-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
